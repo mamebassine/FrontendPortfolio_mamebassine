@@ -1,0 +1,118 @@
+/* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Section d'introduction */
+  .intro {
+    background-color: #343F69;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    background-color: #B7D7B3;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background-color: #8fbc8f;
+  }
+  
+  /* Section Compétences */
+  .competences {
+    padding: 50px 0;
+  }
+  
+  .competences h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .skill {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 1.1em;
+  }
+  
+  /* Section Projets */
+  .projets {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+  }
+  
+  .projets h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .projets p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Contact */
+  .contact {
+    background-color: #343F69;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
